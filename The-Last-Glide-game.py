@@ -328,3 +328,4 @@ def start_game(player: str):
             clear_screen()
             print("Invalid input.")
             sleep(0.7)
+
