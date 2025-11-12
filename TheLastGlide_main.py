@@ -1,6 +1,6 @@
 import os
 import time
-import login
+import TheLastGlide_login
 import TheLastGlide_game
 import leaderboards
 def clear_screen():
@@ -45,5 +45,6 @@ if __name__ == "__main__":
     clear_screen()
     player = login.auth_screen()
     main_menu(player)
+
 
 
