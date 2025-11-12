@@ -1,7 +1,7 @@
 import os
 import time
 from time import sleep
-from main import main_menu
+from TheLastGlide_main import main_menu
 
 PROFILES_FILE = "profiles.txt"
 LEVELS_FILE = "levels.txt"
@@ -328,4 +328,5 @@ def start_game(player: str):
             clear_screen()
             print("Invalid input.")
             sleep(0.7)
+
 
