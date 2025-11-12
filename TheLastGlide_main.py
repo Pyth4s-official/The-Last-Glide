@@ -1,8 +1,8 @@
 import os
 import time
-import TheLastGlide_login
-import TheLastGlide_game
-import TheLastGlide_leaderboards
+import TheLastGlide_login as login
+import TheLastGlide_game as game
+import TheLastGlide_leaderboards as leaderboards
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -45,6 +45,7 @@ if __name__ == "__main__":
     clear_screen()
     player = login.auth_screen()
     main_menu(player)
+
 
 
 
